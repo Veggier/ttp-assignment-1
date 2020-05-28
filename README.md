@@ -6,7 +6,7 @@ This the page about the Covid-19
 
 ## Time spent
 Describe the time you spent on the project.
- * Tutorials, research: 2 hours
+ * Tutorials, research: 3 hours
  * Coding required stories: 1 hour
  * Optional and extras: 1 hours
 
