@@ -3,14 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Covid-19</title>
   </head>
   <body>
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars" aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -18,48 +16,58 @@
       <div class="collapse navbar-collapse justify-content-md-center" id="navbars">
         <ul class="navbar-nav">
           <li class="nav-item"> <a class="nav-link " href="index.html">Home</a></li>
-          <li class="nav-item"> <a class="nav-link " href="information.html">about</a></li>
-          <li class="nav-item"> <a class="nav-link " href="contact.html">contact</a></li>
+          <li class="nav-item"> <a class="nav-link " href="information.html">About</a></li>
+          <li class="nav-item"> <a class="nav-link " href="contact.html">Contact</a></li>
           
         </ul>
       </div>
     </nav>
-    
-    <div class="container" style="text-align: center; ">
-      <h1>Coronavirus (COVID-19)</h1>
-      <img src="https://dfcby4322olzt.cloudfront.net/wp-content/uploads/2020/04/nurses-pushing-gurney-768x336.jpg" alt="nurse treating covid patient">
+    <div class="index-img">
+      <img src="https://citybigbearlake.com/images/ARTICLE_ART/2020/coronavirus_pageart.jpg" style="width: 100%; margin:0;">
     </div>
-    <div class="container" style="border-bottom: 2px solid black; margin-top: 5%;">
+    <div class="container" style="text-align: center;">
+      <div class="jumbotron bg-info text-white">
+        <h1>Coronavirus (COVID-19)</h1>
+        <p>The 2019-2020 that has taken hold of the entire world.</p>
+      </div>
+      
+    </div>
 
-    </div>
-    <br>
-    <br>
-    <h2 style="text-align: center;">United States of America</h2>
-      
-    <div class="card-group justify-content-md-center" style="text-align: center;" >
-      
-    <div class="card text-white bg-warning mb-3" style="max-width: 18rem;">
-      <div class="card-header">Confirmed cases</div>
-      <div class="card-body">
-        <h5 class="card-title">1750000</h5>
-      </div>
-    </div>
-    <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
-      <div class="card-header">Cure</div>
-      <div class="card-body">
-        <h5 class="card-title">377000</h5>
-      </div>
-    </div>
-    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
-      <div class="card-header">Death</div>
-      <div class="card-body">
-        <h5 class="card-title">103000</h5>
-      </div>
+
+  </div>
+  <br>
+  <br>
+  <h2 style="text-align: center;">United States of America</h2>
+    
+  <div class="card-group justify-content-md-center" style="text-align: center;" >
+    
+  <div class="card text-white bg-warning mb-3" style="max-width: 18rem;">
+    <div class="card-header">Confirmed cases</div>
+    <div class="card-body">
+      <h5 class="card-title">1750000</h5>
     </div>
   </div>
-    <div class="container">
-      <div class="container-fluid info-article">
-        <h2>Origin</h2>
+  <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
+    <div class="card-header">Cure</div>
+    <div class="card-body">
+      <h5 class="card-title">377000</h5>
+    </div>
+  </div>
+  <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+    <div class="card-header">Death</div>
+    <div class="card-body">
+      <h5 class="card-title">103000</h5>
+    </div>
+  </div>
+</div>
+
+    </div class = "container">
+
+
+    <div class="container ">
+      <div class="container-fluid info-article m-5">
+        <h2 class="text-danger">Origin</h2>
+          <hr class="my-1">
         <p>
           Coronavirus disease 2019 (COVID-19) is an infectious disease caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). It was first identified in December 2019 in 
           Wuhan, China, and has since spread globally, resulting in an ongoing pandemic. As of 28 May 2020, more than 5.93 million cases have been reported across 188 countries and territories, resulting in more than 357,000 deaths.
@@ -67,8 +75,9 @@
         </p>
       </div>
       
-      <div class="container-fluid info-article">
-        <h2>Symptoms</h2>
+      <div class="container-fluid info-article m-5">
+        <h2 class="text-danger">Symptoms</h2>
+          <hr class="my-1">
         <p>
           Common symptoms include fever, cough, fatigue, shortness of breath, and loss of smell and taste.While the majority of cases result in mild symptoms, some progress to acute 
           respiratory distress syndrome (ARDS) likely precipitated by a cytokine storm, multi-organ failure, septic shock, and blood clots. The time from exposure to onset of symptoms is typically 
@@ -76,8 +85,9 @@
         </p>
       </div>
       
-      <div class="container-fluid info-article">
-        <h2>Transmission</h2>
+      <div class="container-fluid info-article m-5">
+        <h2 class="text-danger">Transmission</h2>
+          <hr class="my-1">
         <p>
           The virus is primarily spread between people during close contact, most often via small droplets produced by coughing,[b] sneezing, and talking. The droplets usually fall to the ground or onto surfaces rather 
           than travelling through air over long distances. Less commonly, people may become infected by touching a contaminated surface and then touching their face. It is most contagious during the first three days after the onset of symptoms, 
@@ -85,9 +95,9 @@
           Chest CT imaging may also be helpful for diagnosis in individuals where there is a high suspicion of infection based on symptoms and risk factors; however, guidelines do not recommend using CT imaging for routine screening.
         </p>
       </div>
-
-      <div class="container-fluid info-article">
-        <h2>Prevention</h2>
+      <div class="container-fluid info-article m-5">
+        <h2 class="text-danger">Prevention</h2>
+          <hr class="my-1">
         <p>
           Recommended measures to prevent infection include frequent hand washing, maintaining physical distance from others (especially from those with symptoms), quarantine (especially for those with symptoms), covering coughs, and keeping unwashed hands away
           from the face.In addition, the use of a face covering is recommended for those who suspect they have the virus and their caregivers. Recommendations for face covering use by the general public vary, with some authorities recommending for them, 
@@ -95,9 +105,6 @@
         </p>
       </div>
     </div>
-
-
-
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
